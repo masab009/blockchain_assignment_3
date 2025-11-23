@@ -67,6 +67,21 @@ mytruffle/
 
 ---
 
+```bash
+git clone https://github.com/masab009/blockchain_assignment_3.git
+cd blockchain_assignment_3
+```
+
+If you want to make it even cleaner for users (recommended):
+
+### **Option 1 — Simple clone + run**
+
+```bash
+git clone https://github.com/masab009/blockchain_assignment_3.git
+cd blockchain_assignment_3/
+```
+
+
 # ⚙️ **Setup Instructions**
 
 ## 1️⃣ Install Dependencies
