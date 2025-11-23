@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Library DApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+  <h1>Decentralized Book Library</h1>
+
+  <h3>Add Book</h3>
+  <input id="title" placeholder="Book Title">
+  <input id="hash" placeholder="Content Hash (IPFS)">
+  <button onclick="addBook()">Add</button>
+
+  <h3>Borrow Book</h3>
+  <input id="borrowId" placeholder="Book ID">
+  <button onclick="borrowBook()">Borrow</button>
+
+  <h3>Return Book</h3>
+  <input id="returnId" placeholder="Book ID">
+  <button onclick="returnBook()">Return</button>
+
+  <h3>Available Books:</h3>
+  <button onclick="loadAvailable()">Load</button>
+  <pre id="available"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
